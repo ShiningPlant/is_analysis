@@ -32,26 +32,26 @@
    
 ### 6. 用例及界面详细设计
 
-   * [“登录”用例](用例/登录.md)，[界面](https://shiningplant.github.io/is_analysis/test6/ui/index.html/)
+   * [“登录”用例](用例/登录.md)，[界面](https://ShiningPlant.github.io/is_analysis/test6/ui/index.html)
    
-   * [“登出”用例](用例/登出.md)，[界面](https://shiningplant.github.io/is_analysis/test6/ui/teacher1.html/)
+   * [“登出”用例](用例/登出.md)，[界面](https://shiningplant.github.io/is_analysis/test6/ui/teacher1.html)
    
-   * [“新增实验”用例](用例/新增实验.md)，[界面](https://shiningplant.github.io/is_analysis/test6/ui/addtest.html/)
+   * [“新增实验”用例](用例/新增实验.md)，[界面](https://shiningplant.github.io/is_analysis/test6/ui/addtest.html)
 
-   * [“查询课程学生列表”用例](用例/查询课程学生列表.md)，[界面](https://shiningplant.github.io/is_analysis/test6/ui/学生列表.html/)
+   * [“查询课程学生列表”用例](用例/查询课程学生列表.md)，[界面](https://shininglant.github.io/is_analysis/test6/ui/学生列表.html)
 
-   * [“判定成绩”用例](用例/判定成绩.md)，[界面](https://shiningplant.github.io/is_analysis/test6/ui/setscore.html/)  
+   * [“判定成绩”用例](用例/判定成绩.md)，[界面](https://shiningplant.github.io/is_analysis/test6/ui/setscore.html)  
 
-   * [“查询成绩”用例](用例/查询成绩.md)，[界面](https://shiningplant.github.io/is_analysis/test6/ui/getscore.html/)   
+   * [“查询成绩”用例](用例/查询成绩.md)，[界面](https://shiningplant.github.io/is_analysis/test6/ui/getscore.html)   
 
-   * [“学生选课”用例](用例/学生选课.md)，[界面](https://shiningplant.github.io/is_analysis/test6/ui/课程列表.html/)  
+   * [“学生选课”用例](用例/学生选课.md)，[界面](https://shiningplant.github.io/is_analysis/test6/ui/课程列表.html)  
    
-   * [“教师选课”用例](用例/教师选课.md)，[界面](https://shiningplant.github.io/is_analysis/test6/ui/teacher1.html/) 
+   * [“教师选课”用例](用例/教师选课.md)，[界面](https://shiningplant.github.io/is_analysis/test6/ui/teacher1.html) 
    
-   * [“修改密码”用例](用例/修改密码.md)，[界面](https://shiningplant.github.io/is_analysis/test6/ui/updatepassword.html/) 
+   * [“修改密码”用例](用例/修改密码.md)，[界面](https://shiningplant.github.io/is_analysis/test6/ui/updatepassword.html) 
 
-   * [“修改个人信息”用例](用例/修改个人信息.md)，[界面](https://shiningplant.github.io/is_analysis/test6/ui/updateuserinfo.html/)  
+   * [“修改个人信息”用例](用例/修改个人信息.md)，[界面](https://shiningplant.github.io/is_analysis/test6/ui/updateuserinfo.html)  
    
-   * [“查看个人信息”用例](用例/查看个人信息.md)，[界面1](https://shiningplant.github.io/is_analysis/test6/ui/student_info.html/)，[界面2](https://shiningplant.github.io/is_analysis/test6/ui/teacher_info.html/)
+   * [“查看个人信息”用例](用例/查看个人信息.md)，[界面1](https://shiningplant.github.io/is_analysis/test6/ui/student_info.html)，[界面2](https://shiningplant.github.io/is_analysis/test6/ui/teacher_info.html)
    
-   * [“选择学期”用例](用例/选择学期.md)，[界面](https://shiningplant.github.io/is_analysis/test6/ui/teacher.html/)
+   * [“选择学期”用例](用例/选择学期.md)，[界面](https://shiningplant.github.io/is_analysis/test6/ui/teacher.html)
