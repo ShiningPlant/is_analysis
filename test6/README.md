@@ -32,7 +32,7 @@
    
 ### 6. 用例及界面详细设计
 
-   * [“登录”用例](用例/登录.md)，[界面](https://ShiningPlant.github.io/is_analysis/test6/ui/index.html)
+   * [“登录”用例](用例/登录.md)，[界面](https://shiningplant.github.io/is_analysis/test6/ui/index.html)
    
    * [“登出”用例](用例/登出.md)，[界面](https://shiningplant.github.io/is_analysis/test6/ui/teacher1.html)
    
