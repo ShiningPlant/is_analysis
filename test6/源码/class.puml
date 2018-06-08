@@ -1,0 +1,87 @@
+@startuml
+title 基于GitHub的实验管理平台--类图
+class users {
+    <b>user_id</b> （用户ID）
+    name （用户真实姓名）
+    github_username （用户GitHub账号）
+    update_date （用户GitHub账号修改日期）
+    password （用户密码）
+    disable （用户是否禁用）
+}
+
+class teachers{
+    <b>teacher_id</b> （老师工号）
+    user_id （老师的用户ID）
+    department （老师所属部门）
+    discipline_id（老师教授的课程）
+}
+
+class students{
+    <b>student_id</b> （学号）
+    user_id （学生的用户ID）
+    class （学生所在班级）
+    result（成绩汇总）
+    web （网站正确与否汇总）
+    discipline_id（学生选的课程）
+}
+
+users <|- students
+users <|-- teachers
+
+class terms{
+    <b>term_id</b>（学期编号）
+    term_name（学期名称）
+}
+
+class disciplines{
+    <b>disciplines_id</b> （课程编号）
+    discipline_name（课程名）
+    discipline_time（课程时间）
+    discipline_place（课程地点）
+    teacher_id（老师工号）
+    student_id（学生学号）
+}
+
+class select{
+    <b>select_id</b>（选课ID）
+    discipline_id（课程编号）
+    teacher_id（老师工号）
+    student_id（学生学号）
+    term_id（学期编号）
+}
+
+
+class texts {
+    <b>texts_id</b> （实验编号）
+    texts_title （实验名称）
+    texts_term（学期）
+    texts_link（每个实验的链接地址）
+}
+
+class grades {
+    <b>student_id</b> （学号）
+    <b>texts_id</b> （实验编号）
+    result （实验分数）
+    comment（实验评语）
+    update_date （评改日期）
+    grade_present（每个实验占总成绩的百分比）
+    update_date（实验批改日期）
+}
+
+class grades_items{
+    <b>items_id</b>（评分项ID）
+    <b>tests_id</b>（实验编号）
+    items_title（每个评分项的名称）
+     result（每个评分项分数}
+     }
+
+grades "1" -- "n" grades_items
+students "1" -- "n"  grades
+texts "1" -- "n"  grades
+teachers "1" -- "n"  select
+students "1" -- "n"  select
+terms "1" -- "n"  disciplines
+disciplines "1" -- "n" texts
+terms "1" -- "n"  select
+
+@enduml

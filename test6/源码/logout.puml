@@ -1,0 +1,12 @@
+@startuml
+Title 登出流程图
+actor 用户
+database "前端存储" as 前端存储
+
+== Login登录页面 ==
+用户->Login页面:用户点击登出按钮
+Login页面->API服务:API请求:<b>logout</b>,参数是用户名
+API服务->前端存储:根据用户名,\n将用户的ID值从到Cookies['session']中\n消去
+API服务->Login页面:返回Login页面
+== 登出后清除cookies信息 ==
+@enduml
